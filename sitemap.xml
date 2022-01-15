@@ -11,15 +11,6 @@
   </url>
   
   <url>
-    <loc>https://yeplee.top/2022/01/15/123/</loc>
-    
-    <lastmod>2022-01-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://yeplee.top/tags/index.html</loc>
     
     <lastmod>2022-01-15</lastmod>
@@ -37,33 +28,6 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://yeplee.top/2022/01/14/hello/</loc>
-    
-    <lastmod>2022-01-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yeplee.top/2022/01/14/test/</loc>
-    
-    <lastmod>2022-01-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yeplee.top/2022/01/14/hello-world/</loc>
-    
-    <lastmod>2022-01-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>https://yeplee.top/</loc>
@@ -72,13 +36,6 @@
     <priority>1.0</priority>
   </url>
 
-  
-  <url>
-    <loc>https://yeplee.top/tags/java/</loc>
-    <lastmod>2022-01-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
   
   <url>
     <loc>https://yeplee.top/tags/%E5%B7%A5%E5%85%B7/</loc>
