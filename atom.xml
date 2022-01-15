@@ -6,7 +6,7 @@
   <link href="https://yeplee.top/atom.xml" rel="self"/>
   
   <link href="https://yeplee.top/"/>
-  <updated>2022-01-15T10:25:05.288Z</updated>
+  <updated>2022-01-15T15:04:59.453Z</updated>
   <id>https://yeplee.top/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Markdown语法</title>
+    <link href="https://yeplee.top/2022/01/15/Markdown%E8%AF%AD%E6%B3%95/"/>
+    <id>https://yeplee.top/2022/01/15/Markdown%E8%AF%AD%E6%B3%95/</id>
+    <published>2022-01-15T12:56:58.000Z</published>
+    <updated>2022-01-15T15:04:59.453Z</updated>
+    
+    <content type="html"><![CDATA[<p>工欲善其事必先利其器，写博客之前先学习点Markdown语法。  </p><h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><p>Markdown标题有两种格式。</p><h3 id="1-使用-和-标记"><a href="#1-使用-和-标记" class="headerlink" title="1.使用=和-标记"></a>1.使用=和-标记</h3><p>在标题的下一行使用=单独隔开表示为一级标题，-为二级标题。</p><h3 id="2-使用-标记"><a href="#2-使用-标记" class="headerlink" title="2.使用#标记"></a>2.使用#标记</h3><p>使用#可表示1-6级标题，一级标题为一个#号，依次类推。  </p><hr><h2 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h2><p>Markdown可以使用以下几种字体：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">*斜体文本*</span><br><span class="line">_斜体文本_</span><br><span class="line">**粗体文本**</span><br><span class="line">__粗体文本__</span><br><span class="line">***粗斜体文本***</span><br><span class="line">___粗斜体文本___</span><br></pre></td></tr></table></figure><p>显示结果如下：<br><em>斜体文本</em><br><em>斜体文本</em><br><strong>粗体文本</strong><br><strong>粗体文本</strong><br><em><strong>粗斜体文本</strong></em><br><em><strong>粗斜体文本</strong></em></p><hr><h2 id="段落隔离"><a href="#段落隔离" class="headerlink" title="段落隔离"></a>段落隔离</h2><h3 id="3-1-分割线"><a href="#3-1-分割线" class="headerlink" title="3.1 分割线"></a>3.1 分割线</h3><p>在一行中使用3个以上的*(星号)、-（减号）、_(下划线)来表示分割线，行内不能有其他东西。</p><h3 id="3-2-删除线"><a href="#3-2-删除线" class="headerlink" title="3.2 删除线"></a>3.2 删除线</h3><p>如果段落上的文字要添加删除线，只需要在文字的两端加上两个波浪线 ~~。</p><hr><h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><p>Markdown支持有序列表和无序列表。<br>无序列表使用*（星号）、+（加号）、-（减号）作为标记，在标记后加个空格，再填写内容。 </p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">* 第一项</span><br><span class="line">* 第二项</span><br><span class="line">+ 第一项</span><br><span class="line">+ 第二项</span><br><span class="line">- 第一项</span><br><span class="line">- 第二项</span><br></pre></td></tr></table></figure><p>效果如下图所示：</p><ul><li>第一项</li><li>第二项</li></ul><ul><li>第一项</li><li>第二项</li></ul><ul><li>第一项</li><li>第二项</li></ul><p>有序列表使用数字加上.号作为标记，也需在标记后加个空格。</p><ol><li>第一项</li><li>第二项</li><li>第三项</li></ol><p>列表嵌套需在子列表前添加四个空格：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1. 第一项</span><br><span class="line">    * 元素一</span><br><span class="line">    * 元素二</span><br></pre></td></tr></table></figure><ol><li>第一项<ul><li>元素一</li><li>元素二</li></ul></li></ol><hr><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><h3 id="短块代码"><a href="#短块代码" class="headerlink" title="短块代码"></a>短块代码</h3><p>可以使用`（反引号）将代码块包起来。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">`Hello World`</span><br></pre></td></tr></table></figure><p>效果：<code>Hello World</code></p><h3 id="代码区块"><a href="#代码区块" class="headerlink" title="代码区块"></a>代码区块</h3><p>使用四个空格或一个Tab键表示一个代码块</p><pre><code>    public static void main(String args [])&#123;    System.out.println(&quot;Hello World&quot;);    &#125;</code></pre><p>使用```包裹一段代码，可指定一种语言：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">```System.out.println(<span class="string">&quot;Hello World&quot;</span>);```</span><br></pre></td></tr></table></figure><p><code>System.out.println(&quot;Hello World&quot;);</code></p><hr><h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><p>将链接名称用[]包裹起来，在()中写链接地址:</p><pre><code>[链接](https://yeplee.top)</code></pre><p><a href="https://yeplee.top/">链接</a></p><hr><h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><p>使用&lt;img&gt;标签来指定图片的地址和格式。</p><pre><code>&lt;img src=&quot;url&quot; width=&quot;50%&quot;&gt;</code></pre><hr><h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><p>使用|来分割单元格，使用-来分割表头和其他行。</p><pre><code>| 表头 | 表头 || --- | --- ||单元格|单元格||单元格|单元格|</code></pre><table><thead><tr><th>表头</th><th>表头</th></tr></thead><tbody><tr><td>单元格</td><td>单元格</td></tr><tr><td>单元格</td><td>单元格</td></tr></tbody></table><h3 id="设置对齐格式"><a href="#设置对齐格式" class="headerlink" title="设置对齐格式"></a>设置对齐格式</h3><ul><li>-:左对齐</li><li>:-右对齐</li><li>:-:居中</li></ul><pre><code>| 左对齐 | 右对齐 | 居中 || :--- | ---: | :---:｜|单元格|单元格|单元格｜|单元格|单元格|单元格｜</code></pre><table><thead><tr><th align="left">左对齐</th><th align="right">右对齐</th><th align="center">居中</th></tr></thead><tbody><tr><td align="left">单元格</td><td align="right">单元格</td><td align="center">单元格</td></tr><tr><td align="left">单元格</td><td align="right">单元格</td><td align="center">单元格</td></tr></tbody></table><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>学习了Markdown基础语法，后续各种进阶操作，如公式、各种HTML元素，还需进一步学习使用。</p><h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><p><a href="https://www.runoob.com/markdown/md-tutorial.html">Markdown教程</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;工欲善其事必先利其器，写博客之前先学习点Markdown语法。  &lt;/p&gt;
+&lt;h2 id=&quot;标题&quot;&gt;&lt;a href=&quot;#标题&quot; class=&quot;headerlink&quot; title=&quot;标题&quot;&gt;&lt;/a&gt;标题&lt;/h2&gt;&lt;p&gt;Markdown标题有两种格式。&lt;/p&gt;
+&lt;h3 id=&quot;</summary>
+      
+    
+    
+    
+    
+    <category term="工具" scheme="https://yeplee.top/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
   
   <entry>
     <title>1234555</title>

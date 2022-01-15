@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yeplee.top/2022/01/15/Markdown%E8%AF%AD%E6%B3%95/</loc>
+    
+    <lastmod>2022-01-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yeplee.top/2022/01/15/123/</loc>
     
     <lastmod>2022-01-15</lastmod>
@@ -66,6 +75,13 @@
   
   <url>
     <loc>https://yeplee.top/tags/java/</loc>
+    <lastmod>2022-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yeplee.top/tags/%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2022-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
