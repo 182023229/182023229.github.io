@@ -3,11 +3,11 @@
   <title>啦啦啦の博客</title>
   
   
-  <link href="https://www.yoursite.com/atom.xml" rel="self"/>
+  <link href="https://yeplee.top/atom.xml" rel="self"/>
   
-  <link href="https://www.yoursite.com/"/>
-  <updated>2022-01-15T10:20:43.881Z</updated>
-  <id>https://www.yoursite.com/</id>
+  <link href="https://yeplee.top/"/>
+  <updated>2022-01-15T10:25:05.288Z</updated>
+  <id>https://yeplee.top/</id>
   
   <author>
     <name>啦啦啦</name>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>1234555</title>
-    <link href="https://www.yoursite.com/2022/01/15/123/"/>
-    <id>https://www.yoursite.com/2022/01/15/123/</id>
+    <link href="https://yeplee.top/2022/01/15/123/"/>
+    <id>https://yeplee.top/2022/01/15/123/</id>
     <published>2022-01-14T17:11:35.000Z</published>
-    <updated>2022-01-15T10:20:43.881Z</updated>
+    <updated>2022-01-15T10:25:05.288Z</updated>
     
     <content type="html"><![CDATA[<p>hello everyone ,  this is my first test file</p>]]></content>
     
@@ -35,14 +35,14 @@
     
     
     
-    <category term="java" scheme="https://www.yoursite.com/tags/java/"/>
+    <category term="java" scheme="https://yeplee.top/tags/java/"/>
     
   </entry>
   
   <entry>
     <title>hello</title>
-    <link href="https://www.yoursite.com/2022/01/14/hello/"/>
-    <id>https://www.yoursite.com/2022/01/14/hello/</id>
+    <link href="https://yeplee.top/2022/01/14/hello/"/>
+    <id>https://yeplee.top/2022/01/14/hello/</id>
     <published>2022-01-14T15:45:03.000Z</published>
     <updated>2022-01-14T15:45:03.176Z</updated>
     
@@ -54,8 +54,8 @@
   
   <entry>
     <title>test</title>
-    <link href="https://www.yoursite.com/2022/01/14/test/"/>
-    <id>https://www.yoursite.com/2022/01/14/test/</id>
+    <link href="https://yeplee.top/2022/01/14/test/"/>
+    <id>https://yeplee.top/2022/01/14/test/</id>
     <published>2022-01-14T15:05:43.000Z</published>
     <updated>2022-01-14T15:05:43.458Z</updated>
     
@@ -67,8 +67,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://www.yoursite.com/2022/01/14/hello-world/"/>
-    <id>https://www.yoursite.com/2022/01/14/hello-world/</id>
+    <link href="https://yeplee.top/2022/01/14/hello-world/"/>
+    <id>https://yeplee.top/2022/01/14/hello-world/</id>
     <published>2022-01-14T15:03:58.891Z</published>
     <updated>2022-01-14T15:03:58.891Z</updated>
     
